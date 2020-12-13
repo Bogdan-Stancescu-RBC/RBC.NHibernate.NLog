@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
-    <Authors>Bogdan Stăncescu &lt;bogdan.stancescu@rbc.com.ro&gt;</Authors>
+    <Authors>Bogdan Stăncescu</Authors>
     <Company>Romanian Business Consult</Company>
     <Description>A straightforward bridge from NHibernate to NLog, without CommonLogging or any other middleware.</Description>
     <Copyright>Copyright ©2020 Romanian Business Consult</Copyright>
@@ -11,6 +11,8 @@
     <PackageIcon>Logo.png</PackageIcon>
     <RepositoryUrl>https://github.com/Bogdan-Stancescu-RBC/RBC.NHibernate.NLog</RepositoryUrl>
     <PackageTags>NHibernate,NLog</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>The first public version.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
