@@ -1,6 +1,6 @@
 ﻿# RBC.NHibernate.NLog
 
-This is a really simple, bare-bones package which only bridges NHibernate's messages to NLog.
+This is [RBC](http://rbc.com.ro/)'s really simple, bare-bones package which bridges [NHibernate](https://nhibernate.info/)'s messages to [NLog](https://nlog-project.org/).
 No other middleware needed, no other dependencies, no messing around with CommonLogging or anything else.
 
 ## Usage
